@@ -196,6 +196,7 @@ def search_google(search_key, driver):
     if (len(meanings) != 0):
         res_str = ""
         for x in range(0, len(meanings)):
+
             res_str += " " + meanings[x].text
         #return meanings[0].text
         return res_str
